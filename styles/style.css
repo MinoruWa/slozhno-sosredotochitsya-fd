@@ -433,15 +433,13 @@ img {
   .what .main__title {
     min-width: 315px;
     margin-top: 0px;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
   }
   .what {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 47px 431px;
-  }
-  .what .main__title {
-    grid-row: 1 / 2;
-    grid-column: 1 / 2;
   }
   .what_multitasking {
     grid-row: 2 / 3;
@@ -517,11 +515,9 @@ img {
   }
   .title__footer {
     font-size: 157px;
+    margin-left: 20px;
   }
   .footer .decorated-zone::after {
     margin-inline-start: 0;
-  }
-  .title__footer {
-    margin-left: 20px;
   }
 }
