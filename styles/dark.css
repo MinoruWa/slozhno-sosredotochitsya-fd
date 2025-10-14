@@ -7,7 +7,7 @@
 :root.theme-dark {
   --bg-image: url(../images/cover-image-dark.png);
   --accent-color:rgba(255, 0, 112, 1);
-  --title-color:rgba(219, 0, 255, 1); 
+  --title-color:rgba(219, 0, 255, 1);
   --text-dark-color:rgba(0, 0, 40, 1);
   --page-color:rgba(0, 0, 40, 1);
   --main-text-color:rgba(241, 178, 206, 1);
