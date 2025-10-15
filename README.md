@@ -1,1 +1,1 @@
-https://github.com/MinoruWa/slozhno-sosredotochitsya-fd#
+https://github.com/MinoruWa/slozhno-sosredotochitsya-fd
