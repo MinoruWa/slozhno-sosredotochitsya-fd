@@ -13,4 +13,7 @@
   --main-text-color:rgba(241, 178, 206, 1);
   --btn-color:rgba(255, 0, 112, 1);
   --btn-hover-color:rgba(255, 0, 112, 0.4);
+  --decor-color:rgba(255, 0, 112, 1);
+  --card-title-color:rgba(255, 0, 112, 1);
+  --decorated-color:rgba(255, 0, 112, 1);
 }
