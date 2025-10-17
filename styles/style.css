@@ -169,6 +169,9 @@ h2:first-of-type {
 .text__block {
   margin-block-start: 50px;
 }
+.why {
+  margin-block-start: 30px;
+}
 article:first-of-type {
   margin-block-start: 30px;
 }
@@ -202,7 +205,7 @@ img {
   line-height: 83%;
   color: var(--title-color);
   text-shadow: 2px 2px 0 var(--accent-color);
-  margin-block-end: 15px;
+  margin-block-end: 29px;
 }
 @media (min-width: 768px) {
   main {
@@ -232,7 +235,7 @@ img {
     min-width: 364px;
     display: flex;
     margin-inline-start: auto;
-    width:50%;
+    width:46%;
   }
   .decorated-zone {
     min-height: 1024px;
@@ -251,11 +254,12 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    margin-top: 19px;
+    margin-top: 21px;
   }
   .main__title {
     grid-column: 1 / 2;
     min-width: 236px;
+    margin-top:21px;
   }
   .card__title {
     grid-column: 2 / 4;
@@ -281,6 +285,9 @@ img {
   .what {
     margin-top: 80px;
   }
+  .what .main__title {
+    width:236px;
+  }
   .how {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -297,32 +304,27 @@ img {
   }
   .how .rules {
     grid-row: 1;
-    margin-top: 14px;
-    margin-left: 15px;
+    margin-top: 51px;
   }
   .recommendations {
-    margin-top:0px;
+    margin-top:28px;
     min-width: 472px;
-    margin-left:15px;
   }
   .how .music {
     grid-row: 2;
-    margin-left: 15px;
   }
   .how .walk {
     grid-row: 3;
-    margin-left: 15px;
   }
   .how .eating {
     grid-row: 4;
-    margin-left: 15px;
   }
   .how .read {
     grid-row: 5;
-    margin-left: 15px;
   }
   .card_how {
     grid-column: 2 / 4;
+    margin-left: 15px;
   }
   .gallery {
     margin-top: 82px;
@@ -357,7 +359,7 @@ img {
     margin-bottom: 20px;
   }
   .footer {
-    margin: 60px 20px 0px 0px;
+    margin: 80px 20px 0px 0px;
     min-height: 1024px;
   }
   .title__footer {
@@ -393,7 +395,7 @@ img {
   }
   .header__title-decor {
     min-width: 491px;
-    width: 50%;
+    width: 45%;
     margin-block-start: 113px;
   }
   main {
@@ -448,7 +450,7 @@ img {
   }
   .how .main__title {
     min-width: 315px;
-    margin-top: 21px;
+    margin-top: 0px;
   }
   .how {
     margin-top: 57px;
@@ -459,6 +461,7 @@ img {
   .recommendations {
     min-width: 649px;
     margin-left:0px;
+    margin-top:0px;
     width:100%;
   }
    .how .card__title {
@@ -483,7 +486,7 @@ img {
   }
   .card_how {
     min-width: 649px;
-    margin-left: 0px;
+    margin-left:0px;
   }
   .gallery {
     margin-bottom: 60px;
@@ -502,6 +505,7 @@ img {
     margin: 20px;
     margin-left: 0px;
     min-height: 768px;
+    margin-top:78px;
   }
   .title__footer {
     font-size: 157px;
